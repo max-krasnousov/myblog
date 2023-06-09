@@ -30,8 +30,8 @@ public class CommonController extends Controller {
     private final DAOComment daoComment;
     private final DAOUser daoUser;
     private static final Logger logger = Logger.getLogger(CommonController.class);
-    private final static String LOGIN_USER_EMAIL = "test.mail@gmail.com";
-    private final static String REG_USER_EMAIL = "reg.mail@gmail.com";
+    private final static String LOGIN_USER_EMAIL = "test@gmail.com";
+    private final static String REG_USER_EMAIL = "reg@gmail.com";
 
 
     @Autowired
@@ -62,7 +62,6 @@ public class CommonController extends Controller {
             daoUser.deleteUserByEmail(REG_USER_EMAIL);
         } catch (WrongEntityIdException e) {
             logger.warn(e);
-
         }
         modelAndView.setViewName(LOGIN_PAGE.getPageName());
         return modelAndView;

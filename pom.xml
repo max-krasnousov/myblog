@@ -31,7 +31,6 @@
       <version>5.3.1</version>
       <scope>test</scope>
     </dependency>
-    <!-- record and play-->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-server</artifactId>

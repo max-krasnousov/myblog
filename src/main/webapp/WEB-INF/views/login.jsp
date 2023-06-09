@@ -84,7 +84,7 @@
 
                     <div class="row">
                         <div class="col-xs-12 my-20 text-center">
-                            <a href="<c:out value="${fpassURL}"/>">Forgot password?</a>
+                            <a id="forgot-pass-link" href="<c:out value="${fpassURL}"/>">Change password?</a>
                         </div>
                     </div>
 
