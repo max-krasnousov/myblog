@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SuiteForAllTests" time="85.966" tests="12" failures="0" errors="0">
+   <testsuite name="SuiteForAllTests" tests="12" failures="0" errors="0" time="85.966" skipped="0" timestamp="2023-06-08 15:46:56" hostname="Alex - DESKTOP-6PU0H9M.N1" id="Test Suites/SuiteForAllTests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Alex\\Katalon Studio\\WEB UI\\Reports\\20230608_154646\\SuiteForAllTests\\20230608_154647"/>
+         <property name="logFiles" value="C:\\Users\\Alex\\Katalon Studio\\WEB UI\\Reports\\20230608_154646\\SuiteForAllTests\\20230608_154647\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Alex - DESKTOP-6PU0H9M.N1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="sessionId" value="87e0a39e3217d96e76ca8338d87c6442"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/commentCreationProcessTest" time="10.783" classname="Test Cases/commentCreationProcessTest" status="PASSED">
+         <system-out><![CDATA[2023-06-08 15:46:56 - [TEST_CASE][PASSED] - Test Cases/commentCreationProcessTest: Test Cases/commentCreationProcessTest
+
+2023-06-08 15:46:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-08 15:46:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-08 15:46:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-08 15:46:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-08 15:46:59 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:7001/my-blog/"): Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:47:00 - [MESSAGE][PASSED] - Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:47:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page/input_Email_loginUserName"), "test@gmail.com"): Text 'test@gmail.com' is set on object 'Object Repository/Page_Login Page/input_Email_loginUserName'
+
+2023-06-08 15:47:00 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Page_Login Page/input_Email_loginUserName'
+
+2023-06-08 15:47:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page/input_Password_loginPassword"), "teO7gFeCDasckeCIEoAHxg=="): Text ****** has been set on object 'Object Repository/Page_Login Page/input_Password_loginPassword'
+
+2023-06-08 15:47:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page/input_Password_loginPassword'
+
+2023-06-08 15:47:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page/button_Login")): Object: 'Object Repository/Page_Login Page/button_Login' is clicked on
+
+2023-06-08 15:47:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page/button_Login' is clicked on
+
+2023-06-08 15:47:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home Page/a_Create New Post")): Object: 'Object Repository/Page_Home Page/a_Create New Post' is clicked on
+
+2023-06-08 15:47:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home Page/a_Create New Post' is clicked on
+
+2023-06-08 15:47:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Post/input_Post name_postName"), "TEST POST NAME"): Text 'TEST POST NAME' is set on object 'Object Repository/Page_Create Post/input_Post name_postName'
+
+2023-06-08 15:47:03 - [MESSAGE][PASSED] - Text 'TEST POST NAME' is set on object 'Object Repository/Page_Create Post/input_Post name_postName'
+
+2023-06-08 15:47:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Post/textarea_Post Text_postText"), "TEST POST TEXT"): Text 'TEST POST TEXT' is set on object 'Object Repository/Page_Create Post/textarea_Post Text_postText'
+
+2023-06-08 15:47:04 - [MESSAGE][PASSED] - Text 'TEST POST TEXT' is set on object 'Object Repository/Page_Create Post/textarea_Post Text_postText'
+
+2023-06-08 15:47:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Post/button_Create Post")): Object: 'Object Repository/Page_Create Post/button_Create Post' is clicked on
+
+2023-06-08 15:47:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Post/button_Create Post' is clicked on
+
+2023-06-08 15:47:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home Page/a_Show more")): Object: 'Object Repository/Page_Home Page/a_Show more' is clicked on
+
+2023-06-08 15:47:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home Page/a_Show more' is clicked on
+
+2023-06-08 15:47:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Post Page/textarea_Test User_commentText"), "TEST COMMENT TEXT"): Text 'TEST COMMENT TEXT' is set on object 'Object Repository/Page_Post Page/textarea_Test User_commentText'
+
+2023-06-08 15:47:05 - [MESSAGE][PASSED] - Text 'TEST COMMENT TEXT' is set on object 'Object Repository/Page_Post Page/textarea_Test User_commentText'
+
+2023-06-08 15:47:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Post Page/button_Create Comment")): Object: 'Object Repository/Page_Post Page/button_Create Comment' is clicked on
+
+2023-06-08 15:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Post Page/button_Create Comment' is clicked on
+
+2023-06-08 15:47:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Post Page/div_TEST COMMENT TEXT"), 0): Object 'Object Repository/Page_Post Page/div_TEST COMMENT TEXT' is present
+
+2023-06-08 15:47:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-08 15:47:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Post Page/div_TEST COMMENT TEXT' is present
+
+2023-06-08 15:47:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Post Page/a_Logout")): Object: 'Object Repository/Page_Post Page/a_Logout' is clicked on
+
+2023-06-08 15:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Post Page/a_Logout' is clicked on
+
+2023-06-08 15:47:06 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:7001/my-blog/edit/clean-test-user"): Navigate to 'http://localhost:7001/my-blog/edit/clean-test-user' successfully
+
+2023-06-08 15:47:06 - [MESSAGE][PASSED] - Navigate to 'http://localhost:7001/my-blog/edit/clean-test-user' successfully
+
+2023-06-08 15:47:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-08 15:47:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/postCreationProcessTest" time="7.607" classname="Test Cases/postCreationProcessTest" status="PASSED">
+         <system-out><![CDATA[2023-06-08 15:47:07 - [TEST_CASE][PASSED] - Test Cases/postCreationProcessTest: Test Cases/postCreationProcessTest
+
+2023-06-08 15:47:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-08 15:47:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-08 15:47:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-08 15:47:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-08 15:47:09 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:7001/my-blog/"): Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:47:09 - [MESSAGE][PASSED] - Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:47:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page/input_Email_loginUserName"), "test@gmail.com"): Text 'test@gmail.com' is set on object 'Object Repository/Page_Login Page/input_Email_loginUserName'
+
+2023-06-08 15:47:10 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Page_Login Page/input_Email_loginUserName'
+
+2023-06-08 15:47:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page/input_Password_loginPassword"), "teO7gFeCDasckeCIEoAHxg=="): Text ****** has been set on object 'Object Repository/Page_Login Page/input_Password_loginPassword'
+
+2023-06-08 15:47:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page/input_Password_loginPassword'
+
+2023-06-08 15:47:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page/button_Login")): Object: 'Object Repository/Page_Login Page/button_Login' is clicked on
+
+2023-06-08 15:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page/button_Login' is clicked on
+
+2023-06-08 15:47:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home Page/a_Create New Post")): Object: 'Object Repository/Page_Home Page/a_Create New Post' is clicked on
+
+2023-06-08 15:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home Page/a_Create New Post' is clicked on
+
+2023-06-08 15:47:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Post/input_Post name_postName"), "TEST POST NAME"): Text 'TEST POST NAME' is set on object 'Object Repository/Page_Create Post/input_Post name_postName'
+
+2023-06-08 15:47:12 - [MESSAGE][PASSED] - Text 'TEST POST NAME' is set on object 'Object Repository/Page_Create Post/input_Post name_postName'
+
+2023-06-08 15:47:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Create Post/textarea_Post Text_postText"), "TEST POST TEXT"): Text 'TEST POST TEXT' is set on object 'Object Repository/Page_Create Post/textarea_Post Text_postText'
+
+2023-06-08 15:47:13 - [MESSAGE][PASSED] - Text 'TEST POST TEXT' is set on object 'Object Repository/Page_Create Post/textarea_Post Text_postText'
+
+2023-06-08 15:47:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Create Post/button_Create Post")): Object: 'Object Repository/Page_Create Post/button_Create Post' is clicked on
+
+2023-06-08 15:47:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Create Post/button_Create Post' is clicked on
+
+2023-06-08 15:47:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Home Page/div_TEST POST NAME"), 0): Object 'Object Repository/Page_Home Page/div_TEST POST NAME' is present
+
+2023-06-08 15:47:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-08 15:47:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Home Page/div_TEST POST NAME' is present
+
+2023-06-08 15:47:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home Page/a_Logout")): Object: 'Object Repository/Page_Home Page/a_Logout' is clicked on
+
+2023-06-08 15:47:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home Page/a_Logout' is clicked on
+
+2023-06-08 15:47:14 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:7001/my-blog/edit/clean-test-user"): Navigate to 'http://localhost:7001/my-blog/edit/clean-test-user' successfully
+
+2023-06-08 15:47:14 - [MESSAGE][PASSED] - Navigate to 'http://localhost:7001/my-blog/edit/clean-test-user' successfully
+
+2023-06-08 15:47:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-08 15:47:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/profileEditionProcessTest" time="12.382" classname="Test Cases/profileEditionProcessTest" status="PASSED">
+         <system-out><![CDATA[2023-06-08 15:47:15 - [TEST_CASE][PASSED] - Test Cases/profileEditionProcessTest: Test Cases/profileEditionProcessTest
+
+2023-06-08 15:47:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-08 15:47:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-08 15:47:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-08 15:47:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-08 15:47:16 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:7001/my-blog/"): Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:47:17 - [MESSAGE][PASSED] - Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:47:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page/input_Email_loginUserName"), "test@gmail.com"): Text 'test@gmail.com' is set on object 'Object Repository/Page_Login Page/input_Email_loginUserName'
+
+2023-06-08 15:47:18 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Page_Login Page/input_Email_loginUserName'
+
+2023-06-08 15:47:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page/input_Password_loginPassword"), "teO7gFeCDasckeCIEoAHxg=="): Text ****** has been set on object 'Object Repository/Page_Login Page/input_Password_loginPassword'
+
+2023-06-08 15:47:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page/input_Password_loginPassword'
+
+2023-06-08 15:47:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page/button_Login")): Object: 'Object Repository/Page_Login Page/button_Login' is clicked on
+
+2023-06-08 15:47:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page/button_Login' is clicked on
+
+2023-06-08 15:47:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home Page/a_FirstT LastT")): Object: 'Object Repository/Page_Home Page/a_FirstT LastT' is clicked on
+
+2023-06-08 15:47:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home Page/a_FirstT LastT' is clicked on
+
+2023-06-08 15:47:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Profile/h3_Profile"), 0): Object 'Object Repository/Page_Profile/h3_Profile' is present
+
+2023-06-08 15:47:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-08 15:47:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Profile/h3_Profile' is present
+
+2023-06-08 15:47:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Profile/input_FirstName_firstName"), "FirstTN"): Text 'FirstTN' is set on object 'Object Repository/Page_Profile/input_FirstName_firstName'
+
+2023-06-08 15:47:20 - [MESSAGE][PASSED] - Text 'FirstTN' is set on object 'Object Repository/Page_Profile/input_FirstName_firstName'
+
+2023-06-08 15:47:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Profile/input_LastName_lastName"), "LastTN"): Text 'LastTN' is set on object 'Object Repository/Page_Profile/input_LastName_lastName'
+
+2023-06-08 15:47:21 - [MESSAGE][PASSED] - Text 'LastTN' is set on object 'Object Repository/Page_Profile/input_LastName_lastName'
+
+2023-06-08 15:47:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Profile/input_Birthday_birthday"), "2002/12/20"): Text '2002/12/20' is set on object 'Object Repository/Page_Profile/input_Birthday_birthday'
+
+2023-06-08 15:47:22 - [MESSAGE][PASSED] - Text '2002/12/20' is set on object 'Object Repository/Page_Profile/input_Birthday_birthday'
+
+2023-06-08 15:47:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Profile/button_Update Profile")): Object: 'Object Repository/Page_Profile/button_Update Profile' is clicked on
+
+2023-06-08 15:47:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Profile/button_Update Profile' is clicked on
+
+2023-06-08 15:47:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Profile/h3_Profile"), 0): Object 'Object Repository/Page_Profile/h3_Profile' is present
+
+2023-06-08 15:47:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-08 15:47:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Profile/h3_Profile' is present
+
+2023-06-08 15:47:22 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Page_Profile/input_FirstName_firstName"), "value", "FirstTN", 0): Object 'Object Repository/Page_Profile/input_FirstName_firstName' has attribute 'value' with value 'FirstTN'
+
+2023-06-08 15:47:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-08 15:47:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Profile/input_FirstName_firstName' has attribute 'value' with value 'FirstTN'
+
+2023-06-08 15:47:23 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Page_Profile/input_LastName_lastName"), "value", "LastTN", 0): Object 'Object Repository/Page_Profile/input_LastName_lastName' has attribute 'value' with value 'LastTN'
+
+2023-06-08 15:47:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-08 15:47:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Profile/input_LastName_lastName' has attribute 'value' with value 'LastTN'
+
+2023-06-08 15:47:23 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Page_Profile/input_Birthday_birthday"), "value", "2002/12/20", 0): Object 'Object Repository/Page_Profile/input_Birthday_birthday' has attribute 'value' with value '2002/12/20'
+
+2023-06-08 15:47:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-08 15:47:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Profile/input_Birthday_birthday' has attribute 'value' with value '2002/12/20'
+
+2023-06-08 15:47:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Profile/input_FirstName_firstName"), "FirstT"): Text 'FirstT' is set on object 'Object Repository/Page_Profile/input_FirstName_firstName'
+
+2023-06-08 15:47:24 - [MESSAGE][PASSED] - Text 'FirstT' is set on object 'Object Repository/Page_Profile/input_FirstName_firstName'
+
+2023-06-08 15:47:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Profile/input_LastName_lastName"), "LastT"): Text 'LastT' is set on object 'Object Repository/Page_Profile/input_LastName_lastName'
+
+2023-06-08 15:47:25 - [MESSAGE][PASSED] - Text 'LastT' is set on object 'Object Repository/Page_Profile/input_LastName_lastName'
+
+2023-06-08 15:47:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Profile/input_Birthday_birthday"), "2003/09/23"): Text '2003/09/23' is set on object 'Object Repository/Page_Profile/input_Birthday_birthday'
+
+2023-06-08 15:47:26 - [MESSAGE][PASSED] - Text '2003/09/23' is set on object 'Object Repository/Page_Profile/input_Birthday_birthday'
+
+2023-06-08 15:47:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Profile/button_Update Profile")): Object: 'Object Repository/Page_Profile/button_Update Profile' is clicked on
+
+2023-06-08 15:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Profile/button_Update Profile' is clicked on
+
+2023-06-08 15:47:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Profile/a_Logout")): Object: 'Object Repository/Page_Profile/a_Logout' is clicked on
+
+2023-06-08 15:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Profile/a_Logout' is clicked on
+
+2023-06-08 15:47:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-08 15:47:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/loginWithEmptyEmailTest" time="3.816" classname="Test Cases/loginWithEmptyEmailTest" status="PASSED">
+         <system-out><![CDATA[2023-06-08 15:47:27 - [TEST_CASE][PASSED] - Test Cases/loginWithEmptyEmailTest: Test Cases/loginWithEmptyEmailTest
+
+2023-06-08 15:47:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-08 15:47:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-08 15:47:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-08 15:47:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-08 15:47:29 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:7001/my-blog/"): Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:47:29 - [MESSAGE][PASSED] - Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:47:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page/input_Password_loginPassword"), "teO7gFeCDasckeCIEoAHxg=="): Text ****** has been set on object 'Object Repository/Page_Login Page/input_Password_loginPassword'
+
+2023-06-08 15:47:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page/input_Password_loginPassword'
+
+2023-06-08 15:47:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page/button_Login")): Object: 'Object Repository/Page_Login Page/button_Login' is clicked on
+
+2023-06-08 15:47:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page/button_Login' is clicked on
+
+2023-06-08 15:47:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Login Page/h1_Log In"), 0): Object 'Object Repository/Page_Login Page/h1_Log In' is present
+
+2023-06-08 15:47:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-08 15:47:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login Page/h1_Log In' is present
+
+2023-06-08 15:47:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-08 15:47:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/loginWithEmptyPasswordTest" time="4.62" classname="Test Cases/loginWithEmptyPasswordTest" status="PASSED">
+         <system-out><![CDATA[2023-06-08 15:47:31 - [TEST_CASE][PASSED] - Test Cases/loginWithEmptyPasswordTest: Test Cases/loginWithEmptyPasswordTest
+
+2023-06-08 15:47:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-08 15:47:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-08 15:47:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-08 15:47:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-08 15:47:33 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:7001/my-blog/"): Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:47:33 - [MESSAGE][PASSED] - Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:47:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page/input_Email_loginUserName"), "test@gmail.com"): Text 'test@gmail.com' is set on object 'Object Repository/Page_Login Page/input_Email_loginUserName'
+
+2023-06-08 15:47:34 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Page_Login Page/input_Email_loginUserName'
+
+2023-06-08 15:47:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page/button_Login")): Object: 'Object Repository/Page_Login Page/button_Login' is clicked on
+
+2023-06-08 15:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page/button_Login' is clicked on
+
+2023-06-08 15:47:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Login Page/h1_Log In"), 0): Object 'Object Repository/Page_Login Page/h1_Log In' is present
+
+2023-06-08 15:47:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-08 15:47:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login Page/h1_Log In' is present
+
+2023-06-08 15:47:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-08 15:47:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/forgotPasswordWithInvalidDataTest" time="6.527" classname="Test Cases/forgotPasswordWithInvalidDataTest" status="PASSED">
+         <system-out><![CDATA[2023-06-08 15:47:36 - [TEST_CASE][PASSED] - Test Cases/forgotPasswordWithInvalidDataTest: Test Cases/forgotPasswordWithInvalidDataTest
+
+2023-06-08 15:47:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-08 15:47:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-08 15:47:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-08 15:47:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-08 15:47:37 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:7001/my-blog/"): Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:47:38 - [MESSAGE][PASSED] - Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:47:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page/a_Forgot password")): Object: 'Object Repository/Page_Login Page/a_Forgot password' is clicked on
+
+2023-06-08 15:47:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id=’forgot-pass-link’]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-08 15:47:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Login Page/a_Forgot password'. Try using Self-healing.
+
+2023-06-08 15:47:39 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Login Page/a_Forgot password' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::a[1]'.
+
+2023-06-08 15:47:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page/a_Forgot password' is clicked on
+
+2023-06-08 15:47:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Forgot Password Page/input_Email_email"), "wrong@gmail.com"): Text 'wrong@gmail.com' is set on object 'Object Repository/Page_Forgot Password Page/input_Email_email'
+
+2023-06-08 15:47:40 - [MESSAGE][PASSED] - Text 'wrong@gmail.com' is set on object 'Object Repository/Page_Forgot Password Page/input_Email_email'
+
+2023-06-08 15:47:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Forgot Password Page/button_Reset Password")): Object: 'Object Repository/Page_Forgot Password Page/button_Reset Password' is clicked on
+
+2023-06-08 15:47:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forgot Password Page/button_Reset Password' is clicked on
+
+2023-06-08 15:47:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Forgot Password Page/label_Wrong Email"), 0): Object 'Object Repository/Page_Forgot Password Page/label_Wrong Email' is present
+
+2023-06-08 15:47:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-08 15:47:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forgot Password Page/label_Wrong Email' is present
+
+2023-06-08 15:47:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-08 15:47:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/forgotPasswordWithValidDataTest" time="6.659" classname="Test Cases/forgotPasswordWithValidDataTest" status="PASSED">
+         <system-out><![CDATA[2023-06-08 15:47:42 - [TEST_CASE][PASSED] - Test Cases/forgotPasswordWithValidDataTest: Test Cases/forgotPasswordWithValidDataTest
+
+2023-06-08 15:47:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-08 15:47:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-08 15:47:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-08 15:47:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-08 15:47:44 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:7001/my-blog/"): Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:47:44 - [MESSAGE][PASSED] - Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:47:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page/a_Forgot password")): Object: 'Object Repository/Page_Login Page/a_Forgot password' is clicked on
+
+2023-06-08 15:47:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id=’forgot-pass-link’]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-08 15:47:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Login Page/a_Forgot password'. Try using Self-healing.
+
+2023-06-08 15:47:46 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Login Page/a_Forgot password' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::a[1]'.
+
+2023-06-08 15:47:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page/a_Forgot password' is clicked on
+
+2023-06-08 15:47:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Forgot Password Page/input_Email_email"), "test@gmail.com"): Text 'test@gmail.com' is set on object 'Object Repository/Page_Forgot Password Page/input_Email_email'
+
+2023-06-08 15:47:46 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Page_Forgot Password Page/input_Email_email'
+
+2023-06-08 15:47:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Forgot Password Page/button_Reset Password")): Object: 'Object Repository/Page_Forgot Password Page/button_Reset Password' is clicked on
+
+2023-06-08 15:47:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Forgot Password Page/button_Reset Password' is clicked on
+
+2023-06-08 15:47:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Forgot Password Page/label_Check your mail box"), 0): Object 'Object Repository/Page_Forgot Password Page/label_Check your mail box' is present
+
+2023-06-08 15:47:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-08 15:47:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Forgot Password Page/label_Check your mail box' is present
+
+2023-06-08 15:47:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-08 15:47:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/logoutProcessTest" time="6.006" classname="Test Cases/logoutProcessTest" status="PASSED">
+         <system-out><![CDATA[2023-06-08 15:47:49 - [TEST_CASE][PASSED] - Test Cases/logoutProcessTest: Test Cases/logoutProcessTest
+
+2023-06-08 15:47:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-08 15:47:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-08 15:47:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-08 15:47:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-08 15:47:50 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:7001/my-blog/"): Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:47:51 - [MESSAGE][PASSED] - Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:47:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page/input_Email_loginUserName"), "test@gmail.com"): Text 'test@gmail.com' is set on object 'Object Repository/Page_Login Page/input_Email_loginUserName'
+
+2023-06-08 15:47:51 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Page_Login Page/input_Email_loginUserName'
+
+2023-06-08 15:47:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page/input_Password_loginPassword"), "teO7gFeCDasckeCIEoAHxg=="): Text ****** has been set on object 'Object Repository/Page_Login Page/input_Password_loginPassword'
+
+2023-06-08 15:47:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page/input_Password_loginPassword'
+
+2023-06-08 15:47:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page/button_Login")): Object: 'Object Repository/Page_Login Page/button_Login' is clicked on
+
+2023-06-08 15:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page/button_Login' is clicked on
+
+2023-06-08 15:47:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Home Page/a_Create New Post"), 0): Object 'Object Repository/Page_Home Page/a_Create New Post' is present
+
+2023-06-08 15:47:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-08 15:47:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Home Page/a_Create New Post' is present
+
+2023-06-08 15:47:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home Page/a_Logout")): Object: 'Object Repository/Page_Home Page/a_Logout' is clicked on
+
+2023-06-08 15:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home Page/a_Logout' is clicked on
+
+2023-06-08 15:47:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-08 15:47:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/registrationWithInvalidDataTest" time="7.421" classname="Test Cases/registrationWithInvalidDataTest" status="PASSED">
+         <system-out><![CDATA[2023-06-08 15:47:55 - [TEST_CASE][PASSED] - Test Cases/registrationWithInvalidDataTest: Test Cases/registrationWithInvalidDataTest
+
+2023-06-08 15:47:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-08 15:47:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-08 15:47:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-08 15:47:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-08 15:47:56 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:7001/my-blog/"): Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:47:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:47:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page/a_Registration")): Object: 'Object Repository/Page_Login Page/a_Registration' is clicked on
+
+2023-06-08 15:47:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page/a_Registration' is clicked on
+
+2023-06-08 15:47:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Registration page/h1_Registration"), 0): Object 'Object Repository/Page_Registration page/h1_Registration' is present
+
+2023-06-08 15:47:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-08 15:47:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Registration page/h1_Registration' is present
+
+2023-06-08 15:47:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration page/input_FirstName_firstName"), "FirstR"): Text 'FirstR' is set on object 'Object Repository/Page_Registration page/input_FirstName_firstName'
+
+2023-06-08 15:47:58 - [MESSAGE][PASSED] - Text 'FirstR' is set on object 'Object Repository/Page_Registration page/input_FirstName_firstName'
+
+2023-06-08 15:47:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration page/input_LastName_lastName"), "LastR"): Text 'LastR' is set on object 'Object Repository/Page_Registration page/input_LastName_lastName'
+
+2023-06-08 15:47:59 - [MESSAGE][PASSED] - Text 'LastR' is set on object 'Object Repository/Page_Registration page/input_LastName_lastName'
+
+2023-06-08 15:47:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration page/input_Email_email"), "reg@gmail.com"): Text 'reg@gmail.com' is set on object 'Object Repository/Page_Registration page/input_Email_email'
+
+2023-06-08 15:48:00 - [MESSAGE][PASSED] - Text 'reg@gmail.com' is set on object 'Object Repository/Page_Registration page/input_Email_email'
+
+2023-06-08 15:48:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration page/input_Birthday_birthday"), "2002/05/28"): Text '2002/05/28' is set on object 'Object Repository/Page_Registration page/input_Birthday_birthday'
+
+2023-06-08 15:48:00 - [MESSAGE][PASSED] - Text '2002/05/28' is set on object 'Object Repository/Page_Registration page/input_Birthday_birthday'
+
+2023-06-08 15:48:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Registration page/input_Password_password"), "teO7gFeCDasckeCIEoAHxg=="): Text ****** has been set on object 'Object Repository/Page_Registration page/input_Password_password'
+
+2023-06-08 15:48:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Registration page/input_Password_password'
+
+2023-06-08 15:48:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration page/button_Register")): Object: 'Object Repository/Page_Registration page/button_Register' is clicked on
+
+2023-06-08 15:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration page/button_Register' is clicked on
+
+2023-06-08 15:48:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Registration page/h1_Registration"), 0): Object 'Object Repository/Page_Registration page/h1_Registration' is present
+
+2023-06-08 15:48:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-08 15:48:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Registration page/h1_Registration' is present
+
+2023-06-08 15:48:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-08 15:48:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/registrationWithValidDataTest" time="10.473" classname="Test Cases/registrationWithValidDataTest" status="PASSED">
+         <system-out><![CDATA[2023-06-08 15:48:02 - [TEST_CASE][PASSED] - Test Cases/registrationWithValidDataTest: Test Cases/registrationWithValidDataTest
+
+2023-06-08 15:48:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-08 15:48:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-08 15:48:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-08 15:48:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-08 15:48:04 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:7001/my-blog/"): Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:48:04 - [MESSAGE][PASSED] - Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:48:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page/a_Registration")): Object: 'Object Repository/Page_Login Page/a_Registration' is clicked on
+
+2023-06-08 15:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page/a_Registration' is clicked on
+
+2023-06-08 15:48:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration page/input_FirstName_firstName"), "FirstR"): Text 'FirstR' is set on object 'Object Repository/Page_Registration page/input_FirstName_firstName'
+
+2023-06-08 15:48:05 - [MESSAGE][PASSED] - Text 'FirstR' is set on object 'Object Repository/Page_Registration page/input_FirstName_firstName'
+
+2023-06-08 15:48:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration page/input_LastName_lastName"), "LastR"): Text 'LastR' is set on object 'Object Repository/Page_Registration page/input_LastName_lastName'
+
+2023-06-08 15:48:06 - [MESSAGE][PASSED] - Text 'LastR' is set on object 'Object Repository/Page_Registration page/input_LastName_lastName'
+
+2023-06-08 15:48:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration page/input_Email_email"), "reg@gmail.com"): Text 'reg@gmail.com' is set on object 'Object Repository/Page_Registration page/input_Email_email'
+
+2023-06-08 15:48:07 - [MESSAGE][PASSED] - Text 'reg@gmail.com' is set on object 'Object Repository/Page_Registration page/input_Email_email'
+
+2023-06-08 15:48:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Registration page/input_Birthday_birthday"), "2002/05/28"): Text '2002/05/28' is set on object 'Object Repository/Page_Registration page/input_Birthday_birthday'
+
+2023-06-08 15:48:07 - [MESSAGE][PASSED] - Text '2002/05/28' is set on object 'Object Repository/Page_Registration page/input_Birthday_birthday'
+
+2023-06-08 15:48:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Registration page/input_Password_password"), "teO7gFeCDasckeCIEoAHxg=="): Text ****** has been set on object 'Object Repository/Page_Registration page/input_Password_password'
+
+2023-06-08 15:48:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Registration page/input_Password_password'
+
+2023-06-08 15:48:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Registration page/input_Confirm password_cPassword"), "teO7gFeCDasckeCIEoAHxg=="): Text ****** has been set on object 'Object Repository/Page_Registration page/input_Confirm password_cPassword'
+
+2023-06-08 15:48:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Registration page/input_Confirm password_cPassword'
+
+2023-06-08 15:48:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Registration page/button_Register")): Object: 'Object Repository/Page_Registration page/button_Register' is clicked on
+
+2023-06-08 15:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration page/button_Register' is clicked on
+
+2023-06-08 15:48:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Login Page/h1_Log In"), 0): Object 'Object Repository/Page_Login Page/h1_Log In' is present
+
+2023-06-08 15:48:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-08 15:48:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login Page/h1_Log In' is present
+
+2023-06-08 15:48:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page/input_Email_loginUserName"), "reg@gmail.com"): Text 'reg@gmail.com' is set on object 'Object Repository/Page_Login Page/input_Email_loginUserName'
+
+2023-06-08 15:48:10 - [MESSAGE][PASSED] - Text 'reg@gmail.com' is set on object 'Object Repository/Page_Login Page/input_Email_loginUserName'
+
+2023-06-08 15:48:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page/input_Password_loginPassword"), "teO7gFeCDasckeCIEoAHxg=="): Text ****** has been set on object 'Object Repository/Page_Login Page/input_Password_loginPassword'
+
+2023-06-08 15:48:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page/input_Password_loginPassword'
+
+2023-06-08 15:48:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page/button_Login")): Object: 'Object Repository/Page_Login Page/button_Login' is clicked on
+
+2023-06-08 15:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page/button_Login' is clicked on
+
+2023-06-08 15:48:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Home Page/a_Create New Post"), 0): Object 'Object Repository/Page_Home Page/a_Create New Post' is present
+
+2023-06-08 15:48:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-08 15:48:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Home Page/a_Create New Post' is present
+
+2023-06-08 15:48:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home Page/a_Logout")): Object: 'Object Repository/Page_Home Page/a_Logout' is clicked on
+
+2023-06-08 15:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home Page/a_Logout' is clicked on
+
+2023-06-08 15:48:12 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:7001/my-blog/edit/clean-test-user"): Navigate to 'http://localhost:7001/my-blog/edit/clean-test-user' successfully
+
+2023-06-08 15:48:12 - [MESSAGE][PASSED] - Navigate to 'http://localhost:7001/my-blog/edit/clean-test-user' successfully
+
+2023-06-08 15:48:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-08 15:48:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/loginWithWrongEmailTest" time="4.732" classname="Test Cases/loginWithWrongEmailTest" status="PASSED">
+         <system-out><![CDATA[2023-06-08 15:48:13 - [TEST_CASE][PASSED] - Test Cases/loginWithWrongEmailTest: Test Cases/loginWithWrongEmailTest
+
+2023-06-08 15:48:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-08 15:48:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-08 15:48:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-08 15:48:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-08 15:48:14 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:7001/my-blog/"): Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:48:15 - [MESSAGE][PASSED] - Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:48:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page/input_Email_loginUserName"), "wrong@gmail.com"): Text 'wrong@gmail.com' is set on object 'Object Repository/Page_Login Page/input_Email_loginUserName'
+
+2023-06-08 15:48:16 - [MESSAGE][PASSED] - Text 'wrong@gmail.com' is set on object 'Object Repository/Page_Login Page/input_Email_loginUserName'
+
+2023-06-08 15:48:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page/input_Password_loginPassword"), "teO7gFeCDasckeCIEoAHxg=="): Text ****** has been set on object 'Object Repository/Page_Login Page/input_Password_loginPassword'
+
+2023-06-08 15:48:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page/input_Password_loginPassword'
+
+2023-06-08 15:48:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page/button_Login")): Object: 'Object Repository/Page_Login Page/button_Login' is clicked on
+
+2023-06-08 15:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page/button_Login' is clicked on
+
+2023-06-08 15:48:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Login Page/label_You entered wrong login"), 0): Object 'Object Repository/Page_Login Page/label_You entered wrong login' is present
+
+2023-06-08 15:48:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-08 15:48:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login Page/label_You entered wrong login' is present
+
+2023-06-08 15:48:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-08 15:48:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/loginWithWrongPasswordTest" time="4.561" classname="Test Cases/loginWithWrongPasswordTest" status="PASSED">
+         <system-out><![CDATA[2023-06-08 15:48:17 - [TEST_CASE][PASSED] - Test Cases/loginWithWrongPasswordTest: Test Cases/loginWithWrongPasswordTest
+
+2023-06-08 15:48:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-08 15:48:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-08 15:48:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-08 15:48:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-08 15:48:19 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:7001/my-blog/"): Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:48:19 - [MESSAGE][PASSED] - Navigate to 'http://localhost:7001/my-blog/' successfully
+
+2023-06-08 15:48:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page/input_Email_loginUserName"), "test@gmail.com"): Text 'test@gmail.com' is set on object 'Object Repository/Page_Login Page/input_Email_loginUserName'
+
+2023-06-08 15:48:20 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Page_Login Page/input_Email_loginUserName'
+
+2023-06-08 15:48:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page/input_Password_loginPassword"), "4nvbrPglk7k="): Text ****** has been set on object 'Object Repository/Page_Login Page/input_Password_loginPassword'
+
+2023-06-08 15:48:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page/input_Password_loginPassword'
+
+2023-06-08 15:48:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page/button_Login")): Object: 'Object Repository/Page_Login Page/button_Login' is clicked on
+
+2023-06-08 15:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page/button_Login' is clicked on
+
+2023-06-08 15:48:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Login Page/label_You entered wrong password"), 0): Object 'Object Repository/Page_Login Page/label_You entered wrong password' is present
+
+2023-06-08 15:48:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-08 15:48:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login Page/label_You entered wrong password' is present
+
+2023-06-08 15:48:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-08 15:48:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-08 15:46:56 - [TEST_SUITE][PASSED] - SuiteForAllTests: Test Cases/loginWithWrongPasswordTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

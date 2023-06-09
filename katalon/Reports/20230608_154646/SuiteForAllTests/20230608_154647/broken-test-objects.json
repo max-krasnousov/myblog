@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Login Page/a_Forgot password",
+      "brokenLocator": "//a[@id\u003d’forgot-pass-link’]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Password:\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230608_154646/SuiteForAllTests/20230608_154647/Object Repository/Page_Login Page/a_Forgot password_neighbor.png"
+    }
+  ]
+}
